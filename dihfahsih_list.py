@@ -1,6 +1,6 @@
 def my_list():
     list1 = ['physics', 'chemistry', 1997, 2000]
-    list1.append("History")
+    list1.append("Maths")
     print("the length of the list: ", len(list1))
     print("Before Updating the list: ", list1)
     list1[-1]="Geography"
