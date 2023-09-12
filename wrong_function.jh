@@ -1,0 +1,10 @@
+def alvin():
+    
+
+    first_name ="Wasswa"
+    Age = 24
+    Single = True
+    print(firstName)
+    print(Age)
+    print(Single)
+alvin()
