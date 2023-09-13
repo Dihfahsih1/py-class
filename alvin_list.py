@@ -8,8 +8,8 @@ def list_function():
     list1[3] = 45
     print ('after update:', list1)
 
-    del list2[4]
-    print(list2)
+    # del list2[4]
+    # print(list2)
 
 
     
