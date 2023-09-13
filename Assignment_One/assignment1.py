@@ -25,9 +25,11 @@ def greet(name):
 greet("Deby")
 
 # Task 6
-def calculte_age(age):
-    year_of_birth = input("Birth year:  ")
-    result = 2023 - year_of_birth
+def calculte_age():
+    year_of_birth = int(input("Birth year:  "))
+    age = 2023 - year_of_birth
+    return age
+calculte_age()
 
 
     
