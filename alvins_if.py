@@ -7,7 +7,7 @@ elif m >= 80 < 90:
 elif m >= 75 < 80:
     print ("B")
 elif m >= 69 < 75:
-    print ("+C")
+    print ("C+")
 elif m >= 59 < 69:
     print ("C")
 elif m == 50:
