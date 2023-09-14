@@ -8,9 +8,8 @@ fruit = ["Apple", "Mango", "rusberries"]
 print(fruit)
 
 # Task 3
-student_info = {"name": "Glen", "age": "12", "grade": "6"}
-value = student_info["name", "age", "grade"]
-print(value)
+student_info = {"name": "Glen", "age": 12, "grade": 6}
+print(student_info)
 
 # Task 4
 colors = ("Blue","Red", "White", "Green")
@@ -18,13 +17,14 @@ print(colors)
 
 # Task 5
 def greet(name):
-    print("Hello {name}. You are welcome.")
-greet("Deby")
+    name = input("Enter your name: ")
+    print(f"Hello {name}. You are welcome.")
+greet(name)
 
 # Task 6
 def calculte_age():
     year_of_birth = int(input("Birth year:  "))
-    age = 2023 - year_of_birth
+    age = 2023-(year_of_birth)
     return age
 calculte_age()
 
