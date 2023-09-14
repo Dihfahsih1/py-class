@@ -22,10 +22,14 @@ def greet(name):
 greet(name)
 
 # Task 6
+from datetime import date
+
 def calculte_age():
     year_of_birth = int(input("Birth year:  "))
     age = 2023-(year_of_birth)
+    print (age)
     return age
+
 calculte_age()
 
 
