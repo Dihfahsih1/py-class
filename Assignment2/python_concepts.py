@@ -2,7 +2,7 @@
 m = int(input("Enter your age: "))
 
 if m >= 18:
-    print ("Your are an adult")
+    print ("You are an adult")
 elif m > 5 < 18:
     print ("You are a minor")
 elif m <= 5:
