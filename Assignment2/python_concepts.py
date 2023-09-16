@@ -1,4 +1,4 @@
-# CONDITIONAL STATEMENT CHALLENGE
+# TASK1. CONDITIONAL STATEMENT CHALLENGE
 m = int(input("Enter your age: "))
 
 if m >= 18:
@@ -12,7 +12,7 @@ else:
     print ()
 
 
-# LIST MANIPULATION
+# TASK2. LIST MANIPULATION
 numbers = []
 a = int(input("First number: "))
 b = int(input("Second number: "))
@@ -23,7 +23,7 @@ sum = (a + b + c + d + e)
 print(sum)
 
 
-# LISTS AND ITERATION
+# TASK4. LISTS AND ITERATION
 colors = ["red", "blue", "green", "yellow", "purple"]
 for a in colors:
     print(a)
@@ -36,5 +36,24 @@ def my_colors():
 my_colors()
 
 
-# 
+# TASK5. CALLING A FUNCTION WITHIN A FUNCTION
+def square():
+    m = int(input("Enter number: "))
+    result = m*m
+    return result
+def square_and_print():
+    m = int(input("Enter number: "))
+    result = m*m
+    print (f"The square of {m} is {result}")
+    return result
+    square()
+square_and_print()
+    
+
+# TASK6. PARAMETERS AND ARGUMENTS
+def greet():
+    name = input("Enter your name: ")
+    print (f"Hello {name}, how are you?")
+greet()
+
 
