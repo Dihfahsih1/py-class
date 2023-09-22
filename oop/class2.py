@@ -6,6 +6,7 @@ class Dog:
     def bark(self):
         return "Woof!"
         
+# object
 my_dog = Dog(name=input("Enter the Dog Name "), age=int(input("Enter the Dog age: ")))
 
 print(my_dog.name)
