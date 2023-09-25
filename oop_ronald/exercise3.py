@@ -3,6 +3,7 @@ class Shape:
 
     def area(self):
         pass
+    '''empty function'''
 
     def display_color(self):
         print(f"The color of the shape is {self.color}")
