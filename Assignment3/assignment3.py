@@ -7,7 +7,7 @@ calculate_average()
 
 ##Data structure manipulation"""
 student_grades=[70,30,75,60,57]
-average=sum(student_grades) / (5)
+average=sum(student_grades) / len(student_grades)
 
 for x in student_grades:
     pass
@@ -33,28 +33,20 @@ else:
     pass
 
 """"While loop challenge"""
-count=1 #newline
-while (True):
-    try:
-        number=int(input('Guess the number from 1 to 100: '))
-    except ValueError:
-            print("Sorry come again")
-            continue
-    if number<17:
-        print("thats lower")
-        continue
+
+import random
+1
+guess_number=random.randint(1, 5)
+attempts=0
+while True:
+    guess=int(input("whats the number (1-100):"))
+    attempts += 1
+    
+    if guess < guess_number:
+        print("Higher! Try again.")
+    elif guess > guess_number:
+        print("Lower! Try again.")
     else:
-        if number>17:
-            print('thats higher')
-            continue
-        else:
-            if number==17:
-                print("Nice guess") 
-            count=count+1   #newline
-            print(f'it took you only {count} times')  
-    break 
-
-    
-    
-
+        print(f"Congratulations! You guessed number {guess_number} in {attempts} attempts.")
+        break
     

@@ -12,5 +12,14 @@
 # Student1=Student("mugabo",7878948,'computer',388)
 # Student1.walk()
 
+class Human():
+    def eat():
+        print("A man eats alot")
+class Human2():
+    def eat():
+        print("A woman eats less")
+Human.eat
+Human2.eat
+
             
     
