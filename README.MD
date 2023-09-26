@@ -1,6 +1,3 @@
-Certainly! Here's a README.md file for your five-week Python course:
-
-```markdown
 # Five-Week Python Course for Absolute Beginners
 
 This five-week Python course is designed to introduce absolute beginners to Python programming. By the end of this course, students will have a solid foundation in Python fundamentals. Each week focuses on specific topics and concepts to help you gradually build your Python skills.
