@@ -14,7 +14,7 @@ for grade in student_grades:
 average_grade = total / len(student_grades)
 
 # Display the average grade
-print(f"Average Grade: {average_grade:.2f}")
+print(f"Average Grade: {average_grade:.3f}")
 
 # c) Create a dictionary of student information
 student_info = {

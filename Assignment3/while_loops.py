@@ -7,7 +7,7 @@ print a congratulatory message along with the number of attempts it took them.''
 import random
 
 # Generate a random secret number between 1 and 100
-secret_number = random.randint(1, 5)
+secret_number = random.randint(1, 100)
 attempts = 0
 
 # Ask the user to guess the secret number
