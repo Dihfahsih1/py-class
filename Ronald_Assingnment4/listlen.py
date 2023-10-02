@@ -1,12 +1,9 @@
-list1=[]
-def my_str():
-    list1=[]
-    for x in list:
-        return len(x)
+list2=[]
 def mr_str():
-    list2=["man","animal","mansion","detroit"]
-    list1.append(my_str)
-    print(list1)
+    list1=["man","animal","mansion","detroit"]
+    for x in list1:
+        list2.append(len(x))
+        print(list2)
 mr_str()
     
     
