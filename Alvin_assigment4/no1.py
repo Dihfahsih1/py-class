@@ -1,10 +1,13 @@
-# using the in-built reversed() function
+
 def reverse_func():
-    inputstr = input("Enter a sentence: ")
-    # return the list of characters of the inputstr in reverse order
-    reversedstr = reversed(inputstr)
-    # then print the reversed characters without spaces.
-    print("".join(reversedstr))
+    '''This allows the the user to input characters and are reversed without spaces '''
+    try:
+        inputstr = input("Enter a sentence: ")     
+        reversedstr = reversed(inputstr)
+        print("".join(reversedstr))
+    except ValueError:
+        print("invalid input")
+
 reverse_func()
 
 
