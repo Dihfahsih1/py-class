@@ -11,3 +11,9 @@ def conditional():
         print("You entered an invalid age")
 
 conditional()
+
+
+def man():
+    print("hello all")
+if __name__=="__main__":
+    man()

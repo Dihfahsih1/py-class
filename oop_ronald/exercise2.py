@@ -20,7 +20,7 @@ class Bike(Vehicle):
 
 
 # Create Car and Bike objects and set their attributes
-car = Car("Toyota", "Camry", 2022, "Gasoline", "Mugoya")
+car = Car("Toyota", "Camry", 2022, "Gasoline", "Not Me")
 bike = Bike("Trek", "Mountain Bike", 2021, 26)
 
 # Print vehicle details
