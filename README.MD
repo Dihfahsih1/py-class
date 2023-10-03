@@ -56,6 +56,10 @@ This five-week Python course is designed to introduce absolute beginners to Pyth
 - Simple Graph Plotting with Matplotlib
 - Animations Using Matplotlib and Plotly Libraries
 
+## Pushing to multiple git repos
+- script for pushing to multiple repositories at once :
+- `for remote in $(git remote); do     git push $remote main; done `
+
 ## Prerequisites
 - No prior programming experience required.
 
