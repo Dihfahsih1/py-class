@@ -1,12 +1,12 @@
-# class Human():
-#     def __init__(self,name,house,age):
-#         self.name=name
-#         self.house=house
-#         self.age=age
-#     def years():
-#         print("I am {self.age} years old")
+class Human():
+    def __init__(self,name,house,age):
+        self.name=name
+        self.house=house
+        self.age=age
+    def years():
+        print("I am {self.age} years old")
     
-# man=Human("ham",15,27)
+man=Human("ham",15,27)
 
 
 

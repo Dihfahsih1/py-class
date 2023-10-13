@@ -1,6 +1,8 @@
-
-import timeit
-print(timeit.timeit('output = 10*5'))
+def my_time():
+    man="I love being rich"
+    cont=man.title()
+    print(cont)
+my_time()
         
 
     

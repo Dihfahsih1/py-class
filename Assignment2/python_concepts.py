@@ -50,7 +50,7 @@ def square(number):
 def square_and_print(b):
     return (square(b))
 number = int(input("Enter number: "))
-print(f"The square of{number} is {square(b)}")
+print(f"The square of{number} is {square()}")
     
 
 # TASK6. PARAMETERS AND ARGUMENTS

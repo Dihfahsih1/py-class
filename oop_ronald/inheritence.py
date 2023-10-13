@@ -6,6 +6,9 @@ class Animal:
     def speak(self):
         """It is empty because each animal speaks differently!"""
         pass
+    def __repr__(self):
+        print(f"Farm('{self.name}','{self.typ}','{self}')")
+        return self
     
 class Dog(Animal):
     def speak(self):
