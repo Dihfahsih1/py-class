@@ -8,8 +8,6 @@ class Human():
     
 man=Human("ham",15,27)
 
-
-
 class Store():
     def __init__(self,job,price):
         self.job=job

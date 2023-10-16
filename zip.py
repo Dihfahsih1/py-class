@@ -1,8 +1,6 @@
 ##Using the zip function in python
 nam=('name','age','school')
 man='ronald',23,'progressive'
-
-##After putting the lateral,we can asign it to any type
 max=zip(nam, man)
 print(dict(max))
 

@@ -33,4 +33,23 @@ class Mango():
         print(f"the colour of my mango is {self.__colour}")
 woma=Mango('jemba','yellow')
 woma.getcolour()
-        
+
+class Queue():
+    def __init__(self):
+        self.items=[]
+    def enque(self,item):
+        self.items.append(item)
+    def deque(self):
+        if not self.is_empty():
+            return self.items.pop(0)
+        else:
+            return None
+    def is_empty(self):
+        return len(self.items)==0
+    def size(self):
+        return len(self.items)
+    
+bank=Queue()
+class Bank(Queue):
+    def __init__(self):
+        super().__init__()
